@@ -61,18 +61,19 @@ body {
     position: absolute;
     right: 10px;
     width: 46px;
+    color: #d7a7ea;
     xtext-indent: 100%;
     xwhite-space: nowrap;
 }
 
-/*height: 46px;
+height: 46px;
     width: 46px;
 	overflow: hidden;
     position: absolute;
     top: 46px;
     right: 2%;
-	background: transparent url("../images/icon-nav.svg") no-repeat 0 0;
-	text-indent: 100%;*/	
+	background: transparent url("***") no-repeat 0 0;
+	text-indent: 100%;	
 
 .nav-btn:hover,
 .nav-btn:focus,
@@ -91,7 +92,7 @@ body {
     margin: 0;
     padding: 1 .8em 0;
     list-style-type: none;
-   /* font-size: */
+    font-size: 
 }
 
 .nav a,
@@ -117,8 +118,10 @@ body {
 }
 
 .nav-top[data-state="expanded"] {
-	max-height: 14em;
+	max-height: 14em; 
 }
+
+
 
 
 
