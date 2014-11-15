@@ -58,12 +58,13 @@ body {
 .nav-btn:visited {
     text-decoration: none;
     font-family: sans-serif;
-    bottom: 0;
     overflow: hidden;
     position: absolute;
     right: 10px;
     width: 46px;
     color: black;
+    top: 10px;
+    
 }
 
 .nav-btn:hover,
