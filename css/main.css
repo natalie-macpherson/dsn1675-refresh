@@ -27,7 +27,7 @@ body {
 }
 .skip-links a {
     position: absolute;
-    top: -3em;
+    top: -10em;
     padding: 0.5em 0.75em;
     background-color: #000;
     color: #fff;
@@ -36,19 +36,83 @@ body {
     text-decoration: none;
 }
 
-
 .skip-links a:focus {
     top: 0;
 }
 
-.masthead {
-    margin: 0 0 1.5rem;
-    xoverflow: hidden;
+
+
+.nav {
+    padding: 0;
+}
+
+a {
+    display: inline-block;
+    color:black;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+nav li a:hover {
+      color: white;
+      background-color: #999999;
+}
+
+.nav-bottom li::after {
+    content: " · ";
+    color: black;
+}
+
+.nav-bottom li:last-child::after {
+    content: none;
+}
+
+.nav-color {
+    background-color: #CCFFFF;
+    overflow: hidden;
+}
+
+.sell {
+    color: white;
+    text-align: center;
+}
+
+.open {
+    color: white;
+    text-align: center;
+}
+/*.navbar-defult {
+    border-color: transparent;
+    background-color: #222;
+}
+
+.nav-bar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    border: 1px solid transparent;
+}
+
+.logo {
+    display: block;
+    width:12rem;
+    margin: 2.5rem 2%;    
 }
 
 .masthead-top {
-    xoverflow: hidden;
-    position: relative;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    
 }
 
 .nav-btn,
@@ -59,27 +123,21 @@ body {
     bottom: 0;
     overflow: hidden;
     position: absolute;
-    right: 10px;
-    width: 46px;
-    xtext-indent: 100%;
-    xwhite-space: nowrap;
-    color: black;
-}
-
-/*height: 46px;
-    width: 46px;
-	overflow: hidden;
-    position: absolute;
-    top: 46px;
     right: 2%;
-	background: transparent url("../images/burger.svg") no-repeat 0 0;
-	text-indent: 100%;*/	
+	background: transparent url("../images/nav.svg") no-repeat 0 0;
+	text-indent: 100%;
+    width: 75px;
+    height: 30px;
+    color: white;
+    top: 1px;
+    background-size: contain;
+}
 
 .nav-btn:hover,
 .nav-btn:focus,
 .nav.btn:active {
     background-color: #dadfae;
-    background-position: -46px -40px;
+    background-position: -25px -40px;
 }
 
 .nav {
@@ -92,7 +150,6 @@ body {
     margin: 0;
     padding: 1 .8em 0;
     list-style-type: none;
-   /* font-size: */
 }
 
 .nav a,
@@ -112,11 +169,45 @@ body {
 }
 
 .nav-top {
-    max-height: 0;
+    position: fixed;
     overflow: hidden;
 	transition: all 250ms linear;
+    top: 25px;
+    right: -100%;
 }
 
 .nav-top[data-state="expanded"] {
-	max-height: 14em;
+	right: 0;
 }
+*/
+
+.billboard {
+    background-image:url(../images/hiking-trail.gif);
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+}
+.masthead-fix-top {
+    top: 0;
+    border-width: 0 0 1px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.action {
+    right: 50%;
+    overflow: hidden;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.action-body {
+    border: 1px solic black;
+    align-content: center;
+}
+
+        
