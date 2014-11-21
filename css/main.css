@@ -8,7 +8,7 @@ html {
     -moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    -text-size-adjust: 100%;
+    text-size-adjust: 100%;
 }
 
 *, *:before, *:after {
@@ -77,14 +77,6 @@ nav li a:hover {
     background-size: cover;
     overflow: hidden;
 }
-.masthead-fix-top {
-    top: 0;
-    border-width: 0 0 1px;
-    position: fixed;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-}
 
 .action {
     right: 50%;
@@ -96,6 +88,21 @@ nav li a:hover {
     background-color: rgba(45, 44, 44, 0.5);
 }
 
+.img {
+    display: block;
+    width: 100%;
+}
+
+.img-flex {
+    display: block;
+    width:100%;
+}
+
+
+.img-color {
+    color: white;
+}
+
 .white {
     color: white;
 }
@@ -105,4 +112,102 @@ nav li a:hover {
     border: 1px solid transparent;
     margin: 0rem 1.5rem 0rem 1.5rem;
     background-color: rgba(45, 44, 44, 0.5);
+}
+
+@media only screen and (min-width: 25em) {
+    
+    .nav {
+        text-align:center;
+        padding: 0;
+    }
+    
+    .nav li {
+        display: inline-block;
+        border: 0;
+    }
+    
+    .footer {
+        text-align: center;
+    }
+}
+ 
+@media only screen and (min-width: 38em) {
+
+    .title{
+        text-align: left;
+        }
+
+    .nav {
+        text-align: left;
+        } 
+    
+     .footer {
+        text-align: right;
+    }
+    
+    .copyright {
+        color: white;
+    }
+    
+    table, td, th, tr {
+        border: none;
+        border-bottom: 1px solid #1F2E3C;
+    }
+
+}
+
+@media only screen and (min-width: 60em) {
+    
+    .title {
+        text-align: left;
+    }
+    
+    .nav {
+        text-align:left;
+    }
+    
+     .footer {
+        text-align: right;
+    }
+    
+     .data dt {
+        float: left;
+        clear: left;
+        width: 10rem;
+    }
+    
+     .data dd {
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 17rem), (min-device-width: 17rem) and (max-device-width: 17rem)
+{
+       table, th, td, tr{
+        display: block;
+    }
+    
+    .table-header {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr { 
+        border: 1px solid black;
+    }
+
+    td {
+        border: 1px solid black;
+        position: relative;
+    }
+    
+    td:before {
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-left: 10px;
+        white-space: nowrap;
+    }
 }
