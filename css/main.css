@@ -25,6 +25,7 @@ body {
     padding: 0;
     list-style-type: none;
 }
+
 .skip-links a {
     position: absolute;
     top: -10em;
@@ -39,8 +40,6 @@ body {
 .skip-links a:focus {
     top: 0;
 }
-
-
 
 .nav {
     padding: 0;
@@ -81,105 +80,6 @@ nav li a:hover {
     color: white;
     text-align: center;
 }
-/*.navbar-defult {
-    border-color: transparent;
-    background-color: #222;
-}
-
-.nav-bar-fixed-top {
-    top: 0;
-    border-width: 0 0 1px;
-    position: fixed;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-}
-
-.navbar {
-    position: relative;
-    min-height: 50px;
-    border: 1px solid transparent;
-}
-
-.logo {
-    display: block;
-    width:12rem;
-    margin: 2.5rem 2%;    
-}
-
-.masthead-top {
-    position: fixed;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-    
-}
-
-.nav-btn,
-.nav-btn:link,
-.nav-btn:visited {
-    text-decoration: none;
-    font-family: sans-serif;
-    bottom: 0;
-    overflow: hidden;
-    position: absolute;
-    right: 2%;
-	background: transparent url("../images/nav.svg") no-repeat 0 0;
-	text-indent: 100%;
-    width: 75px;
-    height: 30px;
-    color: white;
-    top: 1px;
-    background-size: contain;
-}
-
-.nav-btn:hover,
-.nav-btn:focus,
-.nav.btn:active {
-    background-color: #dadfae;
-    background-position: -25px -40px;
-}
-
-.nav {
-    background-color: #dadfae;
-    position: absolute;
-    right: 10px;
-}
-
-.nav ul {
-    margin: 0;
-    padding: 1 .8em 0;
-    list-style-type: none;
-}
-
-.nav a,
-.nav a:link,
-.nav a:visited {
-    display: block;
-    padding: 0.5em 10px;
-    color: #d7a7ea;
-    text-decoration: none;
-}
-
-.nav a:hover,
-.nav a:focus,
-.nav a:active {
-    background-color: #d6e;
-    color: #fff;
-}
-
-.nav-top {
-    position: fixed;
-    overflow: hidden;
-	transition: all 250ms linear;
-    top: 25px;
-    right: -100%;
-}
-
-.nav-top[data-state="expanded"] {
-	right: 0;
-}
-*/
 
 .billboard {
     background-image:url(../images/hiking-trail.gif);
@@ -203,11 +103,18 @@ nav li a:hover {
     color: white;
     border: 1px solid white;
     text-align: center;
+    background-color: rgba(45, 44, 44, 0.5);
+}
+
+.white {
+    color: white;
 }
 
 .action-body {
-    border: 1px solic black;
-    align-content: center;
+    text-align: center;
+    border: 1px solid transparent;
+    margin: 0rem 1.5rem 0rem 1.5rem;
+    background-color: rgba(45, 44, 44, 0.5);
 }
 
         
