@@ -47,7 +47,7 @@ body {
 
 a {
     display: inline-block;
-    color:black;
+    color:white;
     text-decoration: none;
     padding: 0.5rem;
 }
@@ -67,22 +67,12 @@ nav li a:hover {
 }
 
 .nav-color {
-    background-color: #CCFFFF;
+    background-color: #39a3a7;
     overflow: hidden;
 }
 
-.sell {
-    color: white;
-    text-align: center;
-}
-
-.open {
-    color: white;
-    text-align: center;
-}
-
 .billboard {
-    background-image:url(../images/hiking-trail.gif);
+    background-image:url(../images/path.gif);
     background-position: center center;
     background-size: cover;
     overflow: hidden;
@@ -116,5 +106,3 @@ nav li a:hover {
     margin: 0rem 1.5rem 0rem 1.5rem;
     background-color: rgba(45, 44, 44, 0.5);
 }
-
-        
