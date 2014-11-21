@@ -108,11 +108,7 @@ nav li a:hover {
 }
 
 .action-body {
-    right: 50%;
-    overflow: hidden;
-    text-decoration: none;
-    color: black;
-    text-align: center;
+  align-content: center;
     border: 1px solid transparent;
     background-color: rgba(45, 44, 44, 0.5);
 }
