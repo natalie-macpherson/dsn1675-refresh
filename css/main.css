@@ -69,6 +69,15 @@ nav li a:hover {
 .nav-color {
     background-color: #39a3a7;
     overflow: hidden;
+    xposition: fixed;
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: white;
 }
 
 .billboard {
@@ -76,6 +85,7 @@ nav li a:hover {
     background-position: center center;
     background-size: cover;
     overflow: hidden;
+    height: auto;
 }
 
 .action {
@@ -88,7 +98,7 @@ nav li a:hover {
     background-color: rgba(45, 44, 44, 0.5);
 }
 
-.img {
+img {
     display: block;
     width: 100%;
 }
@@ -108,7 +118,6 @@ nav li a:hover {
 }
 
 .action-body {
-  align-content: center;
     border: 1px solid transparent;
     background-color: rgba(45, 44, 44, 0.5);
 }
@@ -127,6 +136,10 @@ nav li a:hover {
     
     .footer {
         text-align: center;
+    }
+    
+    .billboard {
+        height: 30rem;
     }
 }
  
@@ -152,6 +165,10 @@ nav li a:hover {
         border: none;
         border-bottom: 1px solid #1F2E3C;
     }
+    
+    .billboard {
+       x height: 40rem;
+    }
 
 }
 
@@ -167,16 +184,6 @@ nav li a:hover {
     
      .footer {
         text-align: right;
-    }
-    
-     .data dt {
-        float: left;
-        clear: left;
-        width: 10rem;
-    }
-    
-     .data dd {
-        float: left;
     }
 }
 
