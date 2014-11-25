@@ -69,7 +69,6 @@ nav li a:hover {
 .nav-color {
     background-color: #39a3a7;
     overflow: hidden;
-    xposition: fixed;
     width: 100%;
 }
 
@@ -94,6 +93,16 @@ nav li a:hover {
 
 .action-space {
     padding-top: 1rem;
+    text-align: center;
+}
+
+.intro {
+    padding: 0 0rem;
+    text-align: center;
+}
+
+.section-intro {
+    padding: 0 0rem;
 }
 
 .background {
@@ -144,8 +153,17 @@ img {
 
 @media only screen and (min-width: 25em) {
     
+    .section-intro {
+        padding: 0 0.5rem;
+        text-align: center;
+    }
+    
+    .intro {
+        padding: 1rem 0.5rem;
+    }
+    
     .billboard-header {
-        padding-top: 3rem;
+        padding-top: 1rem;
     }
     
     .action-space {
@@ -177,8 +195,16 @@ img {
         padding-top: 7rem;
     }
 
+    .section-intro {
+        padding: 0 4rem;
+    }
+    
     .action-space {
         padding-top: 3rem;
+    }
+    
+    .intro {
+        padding: 2rem 3rem;
     }
     
     .title{
@@ -209,6 +235,14 @@ img {
 }
 
 @media only screen and (min-width: 60em) {
+    
+    .section-intro {
+        padding: 0 10rem;
+    }
+    
+    .intro {
+        padding: 2rem 6rem;
+    }
     
     .billboard-header {
         padding-top: 7rem;
