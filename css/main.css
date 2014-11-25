@@ -88,6 +88,14 @@ nav li a:hover {
     height: auto;
 }
 
+.billboard-header {
+    padding-top: 1rem;
+}
+
+.action-space {
+    padding-top: 1rem;
+}
+
 .background {
     background-image: url(../images/hiking-trail.gif);
     background-position:  center center;
@@ -102,8 +110,8 @@ nav li a:hover {
     background-position:  center center;
     background-size: cover;
     overflow: hidden;
-    border-bottom: 2px solid blue;
-    border-top: 2px solid blue;
+    border-bottom: 2px solid #39a3a7;
+    border-top: 2px solid #39a3a7;
 }
 .action {
     right: 30%;
@@ -136,6 +144,14 @@ img {
 
 @media only screen and (min-width: 25em) {
     
+    .billboard-header {
+        padding-top: 3rem;
+    }
+    
+    .action-space {
+        padding-top: 2.5rem;
+    }
+    
     .nav {
         text-align:center;
         padding: 0;
@@ -151,12 +167,20 @@ img {
     }
     
     .billboard {
-        height: 30rem;
+        height: 25rem;
     }
 }
  
 @media only screen and (min-width: 38em) {
+    
+    .billboard-header {
+        padding-top: 7rem;
+    }
 
+    .action-space {
+        padding-top: 3rem;
+    }
+    
     .title{
         text-align: left;
         }
@@ -179,12 +203,20 @@ img {
     }
     
     .billboard {
-       x height: 40rem;
+       height: 30rem;
     }
 
 }
 
 @media only screen and (min-width: 60em) {
+    
+    .billboard-header {
+        padding-top: 7rem;
+      }
+    
+    .action-space {
+        padding-top:6rem;
+    }
     
     .title {
         text-align: left;
