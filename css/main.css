@@ -54,7 +54,6 @@ a {
 
 nav li a:hover {
       color: #b7d433;
-      xtext-color: #b7d433;
 }
 
 .nav-bottom li::after {
@@ -73,11 +72,30 @@ nav li a:hover {
 }
 
 .title {
-    text-align: center;
     margin: 0;
     padding: 0;
     color: white;
 }
+
+.button-center {
+    text-align: center;
+    margin: 1rem;
+    padding: 0.75rem 1.75rem;
+    border: 1px solid white;
+    background-color: rgba(45, 44, 44, 0.5);  
+}  
+
+.button-center-color{
+    text-align: center;
+    margin: 1rem;
+    padding: 0.75rem 1.75rem;
+    border: 1px solid #39a3a7;
+    background-color: rgba(45, 44, 44, 0.5);     
+}    
+    
+.button-center-box{  
+    text-align: center;    
+} 
 
 .billboard {
     background-image:url(../images/path.gif);
@@ -89,13 +107,14 @@ nav li a:hover {
 
 .billboard-header {
     padding-top: 1rem;
+    font-weight:bold;
 }
     
 .action-space {
     padding-top: 1rem;
     text-align: center;
 }
-
+    
 .intro {
     padding: 0 0rem;
     text-align: center;
@@ -105,9 +124,10 @@ nav li a:hover {
     padding: 0 0rem;
 }
 
-.action: hover {
-    background-color: 39a3a7;
+.action:hover {
+    background-color: #39a3a7;
     color: white;
+    
 }
 
 .background {
@@ -166,6 +186,10 @@ img {
         padding: 0 0.5rem;
         text-align: center;
     }
+    
+    .title {
+     text-align: center;   
+    }    
     
     .intro {
         padding: 1rem 0.5rem;
@@ -272,31 +296,5 @@ img {
 
 @media only screen and (max-width: 17rem), (min-device-width: 17rem) and (max-device-width: 17rem)
 {
-       table, th, td, tr{
-        display: block;
-    }
-    
-    .table-header {
-        position: absolute;
-        top: -9999px;
-        left: -9999px;
-    }
-
-    tr { 
-        border: 1px solid black;
-    }
-
-    td {
-        border: 1px solid black;
-        position: relative;
-    }
-    
-    td:before {
-        position: absolute;
-        top: 6px;
-        left: 6px;
-        width: 45%;
-        padding-left: 10px;
-        white-space: nowrap;
-    }
+      
 }
