@@ -1,0 +1,166 @@
+body {
+xfont-family: "Source Sans Pro", "helvetica", sans-serif;
+xfont-style: normal;
+xfont-weight: normal;
+xtext-align: center;
+xfont-size: 16px;
+xcolor: rgba(39,65,90,1);
+}
+
+h4 {
+xmargin-bottom: 12px;
+xfont-size: 1.25em;
+xfont-weight: 400;
+xtext-transform: uppercase;
+}
+
+h5 {
+xfont-size: 1.75em;
+}
+
+p {
+xmargin-top: 1em;
+xmargin-bottom: 1em;
+xcolor: rgba(39,65,90,.9);
+xfont-size: 1.25em;
+xline-height: 1.625em;
+}
+
+
+ol, ul {
+xslist-style: none;
+}
+
+body {
+xline-height: 1;
+}
+
+strong {
+xcolor: rgba(39,65,90,1);
+xfont-weight: 600;
+}
+
+.plans {
+    background-image: url(../images/food.jpg);
+    background-position:  center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.layer {
+xclear: both;
+xwidth: 100%;
+xheight: auto;
+xpadding: 60px 7.5% 60px;
+xdisplay: block;
+}
+
+.layer > section, .layer > article {
+xclear: both;
+xwidth: 100%;
+xheight: auto;
+xmax-width: 1092px;
+xmargin: 0 auto;
+xdisplay: block;
+}
+/*
+.third {
+xwidth: 27.95%;
+xmargin: 0 30px 0 0;
+xdisplay: inline-block;
+}
+*/
+
+.plan-tier {
+xbackground: white;
+xborder-radius: 3px;
+xborder-radius: 3px;
+xcursor: pointer;
+}
+
+.lift {
+xposition: relative;
+}
+
+.lift:hover {
+xtop: -3px;
+}
+
+.plan-tier h4 {
+xpadding: 18px 0 15px;
+xmargin: 0 0 30px;
+xbackground: #00a1ff;
+xcolor: white;
+}
+
+.plan-tier {
+xcursor: pointer;
+}
+
+.plan-tier sup {
+xposition: relative;
+xright: -9px;
+}
+
+.plan-tier ul {
+xmargin: 30px 0 0;
+xborder-top: 2px solid #e7f2f0;
+}
+
+.plan-tier ul li {
+xfont-size: 1.25em;
+xpadding: 18px 0;
+xcolor: rgba(39,65,90,.9);
+xborder-bottom: 2px solid #e7f2f0;
+}
+
+sup {
+xvertical-align: top;
+}
+
+.plan-tier .plan-price {
+xfont-size: 5em;
+xfont-weight: 300;
+xletter-spacing: -3px;
+}
+
+.plan-tier sub {
+xvertical-align: bottom;
+xposition: relative;
+xbottom: .875em;
+}
+
+.plan-tier .early-adopter-price {
+xcolor: #0091e5;
+}
+p:first-of-type {
+xmargin-top: 0;
+}
+
+small, del {
+xcolor: rgba(39,65,90,.5);
+xfont-size: 1em;
+xline-height: 1.5em;
+}
+
+s, strike, del {
+xtext-decoration: line-through;
+}
+
+
+.layer {
+xpadding-top: 96px;
+xpadding-bottom: 96px;
+}
+
+.plan-tier.callout h6 {
+xwidth: 100%;
+xpadding: 15px 0 14px;
+xbackground: #8dcf3f;
+xcolor: rgba(39,65,90,.5);
+xfont-size: 1.25em;
+}
+
+.plan-tier.callout h4 {
+xbackground-color: #78b336;
+}
