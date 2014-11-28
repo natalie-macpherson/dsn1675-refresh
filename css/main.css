@@ -143,14 +143,14 @@ nav li a:hover {
     color: white; 
 }
 
-.background {
+.background-2 {
     background-image: url(../images/food.jpg);
     background-position:  center center;
     background-size: cover;
     overflow: hidden;
 }
 
-.background-2 {
+.background {
     background-image: url(../images/biking.jpg);
     background-position:  center center;
     background-size: cover;
