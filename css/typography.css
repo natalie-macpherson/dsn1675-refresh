@@ -33,6 +33,14 @@ fieldset, pre, table {
   margin: 0 0 1.5rem;
 }
 
+.marri {
+ font-family: 'Merriweather', Georgia, serif;;
+}
+
+.puri {
+font-family: 'Puritan', Helvetica sans-serif;
+}
+
 .yotta {
   font-size: 2.2807rem;
   line-height: 1.3154;
