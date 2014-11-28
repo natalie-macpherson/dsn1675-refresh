@@ -71,6 +71,10 @@ nav li a:hover {
     width: 100%;
 }
 
+.blue {
+    color: #39a3a7;
+}
+
 .title {
     margin: 0;
     padding: 0;
@@ -79,18 +83,18 @@ nav li a:hover {
 
 .button-center {
     text-align: center;
-    margin: 1rem;
-    padding: 0.75rem 1.75rem;
-    border: 1px solid white;
-    background-color: rgba(45, 44, 44, 0.5);  
+    margin: 2rem;
+    padding: 1rem 1.5rem;
+    border: 1.5px solid white ;
+    background-color: rgba(255, 255, 255, 0.4); 
 }  
 
 .button-center-color{
     text-align: center;
-    margin: 1rem;
-    padding: 0.75rem 1.75rem;
-    border: 1px solid #39a3a7;
-    background-color: rgba(45, 44, 44, 0.5);     
+    margin: 2rem;
+    padding: 1rem 1.5rem;
+    border: 1.5px solid #39a3a7;
+    background-color: rgba(57, 162, 168, 0.4);    
 }    
     
 .button-center-box{  
@@ -98,7 +102,7 @@ nav li a:hover {
 } 
 
 .billboard {
-    background-image:url(../images/path.gif);
+    background-image:url(../images/hiking-path.jpg);
     background-position: center center;
     background-size: cover;
     overflow: hidden;
@@ -126,35 +130,44 @@ nav li a:hover {
 
 .action:hover {
     background-color: #39a3a7;
+    color: white;   
+}
+
+.button-center:hover {
+    background-color: #39a3a7;
     color: white;
-    
+}
+
+.button-center-color: hover {
+    background-color: #39a3a7;
+    color: white; 
 }
 
 .background {
-    background-image: url(../images/hiking-trail.gif);
+    background-image: url(../images/food.jpg);
     background-position:  center center;
     background-size: cover;
     overflow: hidden;
-    border-bottom: 2px solid #39a3a7;
-    border-top: 2px solid #39a3a7;
 }
 
 .background-2 {
-    background-image: url(../images/gym.gif);
+    background-image: url(../images/biking.jpg);
     background-position:  center center;
     background-size: cover;
     overflow: hidden;
-    border-bottom: 2px solid #39a3a7;
-    border-top: 2px solid #39a3a7;
 }
+
 .action {
-    right: 30%;
     overflow: hidden;
     text-decoration: none;
     color: white;
-    border: 1px solid white;
+    border: 1.5px solid white;
     text-align: center;
-    background-color: rgba(45, 44, 44, 0.5);
+    background-color: rgba(57, 162, 168, 0.4);
+    width: 150px;
+    height 150px;
+    margin: 1.5rem;
+    padding: 1rem;
 }
 
 img {
@@ -170,6 +183,14 @@ img {
 
 .img-color {
     color: white;
+}
+
+.icon {
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .white {
@@ -196,7 +217,7 @@ img {
     }
     
     .billboard-header {
-        padding-top: 5rem;
+        padding-top: 8rem;
     }
     
     .action-space {
@@ -218,26 +239,26 @@ img {
     }
     
     .billboard {
-        height: 25rem;
+        height: 30rem;
     }
 }
  
 @media only screen and (min-width: 38em) {
     
     .billboard-header {
-        padding-top: 7rem;
+        padding-top: 13rem;
     }
 
     .section-intro {
-        padding: 0 4rem;
+        padding: 0 5rem;
     }
     
     .action-space {
-        padding-top: 3rem;
+        padding-top: 5rem;
     }
     
     .intro {
-        padding: 2rem 3rem;
+        padding: 4rem 3rem;
     }
     
     .title{
@@ -258,7 +279,7 @@ img {
     }
     
     .billboard {
-       height: 30rem;
+       height:40rem;
     }
 
 }
@@ -274,7 +295,7 @@ img {
     }
     
     .billboard-header {
-        padding-top: 8rem;
+        padding-top: 10rem;
       }
     
     .action-space {
