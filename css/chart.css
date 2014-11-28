@@ -73,6 +73,7 @@ xbackground: white;
 xborder-radius: 3px;
 xborder-radius: 3px;
 cursor: pointer;
+xvertical-align: baseline;
 }
 
 .lift {
@@ -80,7 +81,7 @@ position: relative;
 }
 
 .lift:hover {
-top: -3px;
+top: -10px;
 }
 
 .plan-tier h4 {
