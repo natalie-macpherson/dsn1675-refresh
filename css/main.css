@@ -53,8 +53,8 @@ a {
 }
 
 nav li a:hover {
-      color: white;
-      background-color: #999999;
+      color: #b7d433;
+      xtext-color: #b7d433;
 }
 
 .nav-bottom li::after {
