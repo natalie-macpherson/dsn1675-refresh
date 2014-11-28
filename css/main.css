@@ -90,7 +90,7 @@ nav li a:hover {
 .billboard-header {
     padding-top: 1rem;
 }
-
+    
 .action-space {
     padding-top: 1rem;
     text-align: center;
@@ -103,6 +103,11 @@ nav li a:hover {
 
 .section-intro {
     padding: 0 0rem;
+}
+
+.action: hover {
+    background-color: 39a3a7;
+    color: white;
 }
 
 .background {
@@ -167,7 +172,7 @@ img {
     }
     
     .billboard-header {
-        padding-top: 1rem;
+        padding-top: 5rem;
     }
     
     .action-space {
@@ -245,7 +250,7 @@ img {
     }
     
     .billboard-header {
-        padding-top: 7rem;
+        padding-top: 8rem;
       }
     
     .action-space {
