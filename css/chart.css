@@ -1,10 +1,5 @@
 body {
-xfont-family: "Source Sans Pro", "helvetica", sans-serif;
-xfont-style: normal;
-xfont-weight: normal;
 xtext-align: center;
-xfont-size: 16px;
-xcolor: rgba(39,65,90,1);
 }
 
 h4 {
@@ -28,7 +23,7 @@ xline-height: 1.625em;
 
 
 ol, ul {
-xslist-style: none;
+list-style: none;
 }
 
 body {
@@ -37,7 +32,7 @@ xline-height: 1;
 
 strong {
 xcolor: rgba(39,65,90,1);
-xfont-weight: 600;
+font-weight: 600;
 }
 
 .plans {
@@ -48,42 +43,44 @@ xfont-weight: 600;
 }
 
 .layer {
-xclear: both;
-xwidth: 100%;
-xheight: auto;
-xpadding: 60px 7.5% 60px;
-xdisplay: block;
+clear: both;
+width: 100%;
+height: auto;
+display: block;
 }
 
-.layer > section, .layer > article {
+.layer > div {
 xclear: both;
 xwidth: 100%;
 xheight: auto;
 xmax-width: 1092px;
 xmargin: 0 auto;
-xdisplay: block;
+display: block;
 }
-/*
+
+.background-colour {
+    background-color: white;
+}
+
 .third {
 xwidth: 27.95%;
 xmargin: 0 30px 0 0;
 xdisplay: inline-block;
 }
-*/
 
-.plan-tier {
+.plan-tier { /** background colour**/
 xbackground: white;
 xborder-radius: 3px;
 xborder-radius: 3px;
-xcursor: pointer;
+cursor: pointer;
 }
 
 .lift {
-xposition: relative;
+position: relative;
 }
 
 .lift:hover {
-xtop: -3px;
+top: -3px;
 }
 
 .plan-tier h4 {
@@ -98,24 +95,24 @@ xcursor: pointer;
 }
 
 .plan-tier sup {
-xposition: relative;
-xright: -9px;
+position: relative;
+right: -9px;
 }
 
-.plan-tier ul {
-xmargin: 30px 0 0;
-xborder-top: 2px solid #e7f2f0;
+.plan-tier ul { /** chart line colour**/
+margin: 30px 0 0;
+border-top: 2px solid #e7f2f0;
 }
 
 .plan-tier ul li {
 xfont-size: 1.25em;
-xpadding: 18px 0;
-xcolor: rgba(39,65,90,.9);
-xborder-bottom: 2px solid #e7f2f0;
+padding: 18px 0;
+color: rgba(39,65,90,.9);
+border-bottom: 2px solid #e7f2f0;
 }
 
 sup {
-xvertical-align: top;
+vertical-align: top;
 }
 
 .plan-tier .plan-price {
@@ -125,13 +122,13 @@ xletter-spacing: -3px;
 }
 
 .plan-tier sub {
-xvertical-align: bottom;
-xposition: relative;
-xbottom: .875em;
+vertical-align: bottom;
+position: relative;
+bottom: .875em;
 }
 
-.plan-tier .early-adopter-price {
-xcolor: #0091e5;
+.plan-tier {
+color: #0091e5;
 }
 p:first-of-type {
 xmargin-top: 0;
@@ -149,8 +146,8 @@ xtext-decoration: line-through;
 
 
 .layer {
-xpadding-top: 96px;
-xpadding-bottom: 96px;
+padding-top: 96px;
+padding-bottom: 96px;
 }
 
 .plan-tier.callout h6 {
