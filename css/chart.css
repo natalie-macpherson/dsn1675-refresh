@@ -68,7 +68,7 @@ top: -10px;
 
 .plan-tier h2 {
 padding: 18px 0 15px;
-margin: 0 0 30px;
+margin: 0;
 background: #00a1ff;
 color: white;
 overflow: hidden;
@@ -84,7 +84,7 @@ right: -9px;
 }
 
 .plan-tier ul { /** chart line colour**/
-margin: 30px 0 0;
+xmargin: 30px 0 0;
 border-top: 2px solid #e7f2f0;
 }
 
@@ -115,19 +115,8 @@ bottom: .875em;
 color: #0091e5;
 }
 p:first-of-type {
-xmargin-top: 0;
+margin-top: 0;
 }
-
-small, del {
-xcolor: rgba(39,65,90,.5);
-xfont-size: 1em;
-xline-height: 1.5em;
-}
-
-s, strike, del {
-xtext-decoration: line-through;
-}
-
 
 .layer {
 padding-top: 96px;
@@ -135,13 +124,15 @@ padding-bottom: 96px;
 }
 
 .plan-tier.callout h6 {
-xwidth: 100%;
-xpadding: 15px 0 14px;
-xbackground: #8dcf3f;
-xcolor: rgba(39,65,90,.5);
-xfont-size: 1.25em;
+width: 100%;
+padding: 15px 0 14px;
+background: #8dcf3f;
+color: rgba(39,65,90,.5);
+font-size: 1.25em;
+margin-bottom: 0;
 }
 
-.plan-tier.callout h4 {
-xbackground-color: #78b336;
+.plan-tier.callout h3 {
+    background-color: #78b336;
+    padding: 3rem;
 }
