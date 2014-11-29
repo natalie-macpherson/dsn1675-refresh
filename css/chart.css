@@ -14,25 +14,12 @@ xfont-size: 1.75em;
 }
 
 p {
-xmargin-top: 1em;
-xmargin-bottom: 1em;
-xcolor: rgba(39,65,90,.9);
-xfont-size: 1.25em;
-xline-height: 1.625em;
+    color: rgba(39,65,90,.9);
 }
 
 
 ol, ul {
 list-style: none;
-}
-
-body {
-xline-height: 1;
-}
-
-strong {
-xcolor: rgba(39,65,90,1);
-font-weight: 600;
 }
 
 .plans {
@@ -47,6 +34,7 @@ clear: both;
 width: 100%;
 height: auto;
 display: block;
+text-align: center;
 }
 
 .layer > div {
@@ -60,12 +48,6 @@ display: block;
 
 .background-colour {
     background-color: white;
-}
-
-.third {
-xwidth: 27.95%;
-xmargin: 0 30px 0 0;
-xdisplay: inline-block;
 }
 
 .plan-tier { /** background colour**/
@@ -84,11 +66,12 @@ position: relative;
 top: -10px;
 }
 
-.plan-tier h4 {
-xpadding: 18px 0 15px;
-xmargin: 0 0 30px;
-xbackground: #00a1ff;
-xcolor: white;
+.plan-tier h2 {
+padding: 18px 0 15px;
+margin: 0 0 30px;
+background: #00a1ff;
+color: white;
+overflow: hidden;
 }
 
 .plan-tier {
