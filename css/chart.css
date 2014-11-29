@@ -1,25 +1,13 @@
-body {
-xtext-align: center;
-}
-
-h4 {
-xmargin-bottom: 12px;
-xfont-size: 1.25em;
-xfont-weight: 400;
-xtext-transform: uppercase;
-}
-
-h5 {
-xfont-size: 1.75em;
-}
-
 p {
     color: rgba(39,65,90,.9);
 }
 
+ul {
+    padding: 0;
+}
 
 ol, ul {
-list-style: none;
+    list-style: none;
 }
 
 .plans {
@@ -30,109 +18,90 @@ list-style: none;
 }
 
 .layer {
-clear: both;
-width: 100%;
-height: auto;
-display: block;
-text-align: center;
+    clear: both;
+    width: 100%;
+    height: auto;
+    display: block;
+    text-align: center;
 }
 
 .layer > div {
-xclear: both;
-xwidth: 100%;
-xheight: auto;
-xmax-width: 1092px;
-xmargin: 0 auto;
-display: block;
+    display: block;
 }
 
 .background-colour {
     background-color: white;
 }
 
-.plan-tier { /** background colour**/
-xbackground: white;
-xborder-radius: 3px;
-xborder-radius: 3px;
+.plan-tier {
 cursor: pointer;
-xvertical-align: baseline;
 }
 
 .lift {
-position: relative;
+    position: relative;
 }
 
 .lift:hover {
-top: -10px;
+    top: -10px;
 }
 
 .plan-tier h2 {
-padding: 18px 0 15px;
-margin: 0;
-background: #00a1ff;
-color: white;
-overflow: hidden;
-}
-
-.plan-tier {
-xcursor: pointer;
+    padding: 18px 0 15px;
+    margin: 0 0 30px;
+    background: #00a1ff;
+    color: white;
+    overflow: hidden;
 }
 
 .plan-tier sup {
-position: relative;
-right: -9px;
+    position: relative;
+    right: -9px;
 }
 
 .plan-tier ul { /** chart line colour**/
-xmargin: 30px 0 0;
-border-top: 2px solid #e7f2f0;
+    border-top: 2px solid #e7f2f0;
 }
 
 .plan-tier ul li {
-xfont-size: 1.25em;
-padding: 18px 0;
-color: rgba(39,65,90,.9);
-border-bottom: 2px solid #e7f2f0;
+    padding: 18px 0;
+    color: rgba(39,65,90,.9);
+    border-bottom: 2px solid #e7f2f0;
 }
 
 sup {
-vertical-align: top;
-}
-
-.plan-tier .plan-price {
-xfont-size: 5em;
-xfont-weight: 300;
-xletter-spacing: -3px;
+    vertical-align: top;
 }
 
 .plan-tier sub {
-vertical-align: bottom;
-position: relative;
-bottom: .875em;
+    vertical-align: bottom;
+    position: relative;
+    bottom: .875em;
 }
 
 .plan-tier {
-color: #0091e5;
+    color: #0091e5;
 }
 p:first-of-type {
-margin-top: 0;
+    margin-top: 0;
 }
 
 .layer {
-padding-top: 96px;
-padding-bottom: 96px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .plan-tier.callout h6 {
-width: 100%;
-padding: 15px 0 14px;
-background: #8dcf3f;
-color: rgba(39,65,90,.5);
-font-size: 1.25em;
-margin-bottom: 0;
+    width: 100%;
+    padding: 15px 0 14px;
+    background: #8dcf3f;
+    color: rgba(39,65,90,.5);
+    font-size: 1.25em;
+    margin-bottom: 0;
+    color: white;
 }
 
 .plan-tier.callout h3 {
     background-color: #78b336;
     padding: 3rem;
+    margin: 0;
 }
