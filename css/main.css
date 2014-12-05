@@ -57,8 +57,8 @@ nav li a:hover {
 }
 
 .nav-bottom li::after {
-    content: " · ";
-    color: black;
+    xcontent: none;
+    xcolor: white;
 }
 
 .nav-bottom li:last-child::after {
@@ -205,14 +205,15 @@ img {
 
 .form {
     position:  relative;
-    max-width: 20rem;
+    max-width: 30rem;
+    padding: 2rem;
     text-align: left;
     margin: 0 auto;
 }
 
 .field {
     width: 100%;
-    padding: 4px;
+    padding: 10px;
     border: 1px solid blue;
     box-shadow: 0 0 0 5px red;
     border-radius: 4px;
@@ -238,6 +239,11 @@ img {
     }
 
 @media only screen and (min-width: 25em) {
+        
+    .nav-bottom li::after {
+        content: " · ";
+        color: white;
+    }
     
     .section-intro {
         padding: 0 0.5rem;
@@ -245,7 +251,7 @@ img {
     }
     
     .title {
-     text-align: center;   
+     text-align: left;   
     }    
     
     .intro {
@@ -261,7 +267,7 @@ img {
     }
     
     .nav {
-        text-align:center;
+        text-align: right;
         padding: 0;
     }
     
@@ -271,22 +277,26 @@ img {
     }
     
     .footer {
-        text-align: center;
+        text-align: right;
     }
     
     .billboard {
         height: 30rem;
     }
+    
+    .copyright {
+        text-align: left;
+    }
 }
  
 @media only screen and (min-width: 38em) {
     
+    .nav-bottom li::after {
+        content: " · ";
+        color: white;
+    }
     .billboard-header {
         padding-top: 13rem;
-    }
-
-    .section-intro {
-        padding: 0 5rem;
     }
     
     .action-space {
@@ -302,20 +312,19 @@ img {
         }
 
     .nav {
-        text-align: left;
+        text-align: right;
         } 
     
      .footer {
         text-align: right;
     }
     
-    table, td, th, tr {
-        border: none;
-        border-bottom: 1px solid #1F2E3C;
-    }
-    
     .billboard {
        height:40rem;
+    }
+    
+    .copyright {
+        text-align: left;
     }
 
 }
@@ -343,15 +352,14 @@ img {
     }
     
     .nav {
-        text-align:left;
+        text-align:right;
     }
     
      .footer {
         text-align: right;
     }
-}
-
-@media only screen and (max-width: 17rem), (min-device-width: 17rem) and (max-device-width: 17rem)
-{
-      
+    
+    .copyright {
+        text-align: left;
+    }
 }
