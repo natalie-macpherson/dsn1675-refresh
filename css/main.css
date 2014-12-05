@@ -124,6 +124,10 @@ nav li a:hover {
     text-align: center;
 }
 
+.intro-signup {
+    text-align: center;
+}
+
 .section-intro {
     padding: 0 0rem;
 }
@@ -201,6 +205,7 @@ img {
     text-align: center;
     margin: 0;
     padding: 0;
+    color: #39a3a7;
 }
 
 .form {
