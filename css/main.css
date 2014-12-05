@@ -240,6 +240,7 @@ img {
 
 @media only screen and (min-width: 25em) {
         
+    
     .nav-bottom li::after {
         content: " · ";
         color: white;
@@ -249,14 +250,14 @@ img {
         padding: 0 0.5rem;
         text-align: center;
     }
+    .into {
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
     
     .title {
      text-align: left;   
     }    
-    
-    .intro {
-        padding: 1rem 0.5rem;
-    }
     
     .billboard-header {
         padding-top: 8rem;
@@ -303,8 +304,9 @@ img {
         padding-top: 5rem;
     }
     
-    .intro {
-        padding: 4rem 3rem;
+    .into {
+        padding-left: 3rem;
+        padding-right: 3rem;
     }
     
     .title{
@@ -336,7 +338,8 @@ img {
     }
     
     .intro {
-        padding: 2rem 6rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
     }
     
     .billboard-header {
