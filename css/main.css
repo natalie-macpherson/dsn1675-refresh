@@ -78,7 +78,7 @@ nav li a:hover {
 .title {
     margin: 0;
     padding: 0;
-    color: white;
+    color: #39a3a7;
 }
 
 .button-center {
@@ -195,6 +195,42 @@ img {
 
 .white {
     color: white;
+}
+
+.team {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.form {
+    position:  relative;
+    max-width: 20rem;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.field {
+    width: 100%;
+    padding: 4px;
+    border: 1px solid blue;
+    box-shadow: 0 0 0 5px red;
+    border-radius: 4px;
+    transition: all 250ms linear;
+}
+
+.field:focus {
+    box-shadow: 0 0 0 5px green;
+}
+
+
+.radio {
+    white-space: nowrap;
+    text-align: center;
+}
+
+.option {
+    text-align: left;
 }
 
  .copyright {

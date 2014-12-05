@@ -11,7 +11,7 @@ ol, ul {
 }
 
 .plans {
-    background-image: url(../images/food.jpg);
+    background-image: url(../images/);
     background-position:  center center;
     background-size: cover;
     overflow: hidden;
@@ -30,11 +30,16 @@ ol, ul {
 }
 
 .background-colour {
-    background-color: white;
+    background-color: #e7f2f0;
 }
 
 .plan-tier {
-cursor: pointer;
+    cursor: pointer;
+    margin-top: 4.5em;
+}
+
+.middle {
+    margin-top: 0;
 }
 
 .lift {
@@ -48,7 +53,7 @@ cursor: pointer;
 .plan-tier h2 {
     padding: 18px 0 15px;
     margin: 0 0 30px;
-    background: #00a1ff;
+    background: #39a3a7;
     color: white;
     overflow: hidden;
 }
@@ -59,13 +64,13 @@ cursor: pointer;
 }
 
 .plan-tier ul { /** chart line colour**/
-    border-top: 2px solid #e7f2f0;
+    border-top: 2px solid #78b336;
 }
 
 .plan-tier ul li {
     padding: 18px 0;
     color: rgba(39,65,90,.9);
-    border-bottom: 2px solid #e7f2f0;
+    border-bottom: 2px solid #39a3a7;
 }
 
 sup {
@@ -79,21 +84,26 @@ sup {
 }
 
 .plan-tier {
-    color: #0091e5;
+    color: white;
 }
+
+.cost {
+    color: #ed7b50;
+}
+
 p:first-of-type {
     margin-top: 0;
 }
 
 .layer {
-    padding-top: 96px;
+    padding-top: 3rem;
     padding-bottom: 96px;
 }
 
 .plan-tier.callout h6 {
     width: 100%;
     padding: 15px 0 14px;
-    background: #8dcf3f;
+    background: #ed7b50;
     color: rgba(39,65,90,.5);
     font-size: 1.25em;
     margin-bottom: 0;
