@@ -251,6 +251,10 @@ img {
     text-align: center;
 }
 
+.thank-you {
+    padding-top: 7rem;
+}
+
 .option {
     text-align: left;
 }
@@ -303,6 +307,10 @@ img {
     .billboard-header {
         padding-top: 3.5rem;
     }
+    
+    .thank-you {
+    padding-top: 10rem;
+}
     
     .copyright {
         text-align: left;
@@ -372,6 +380,14 @@ img {
     .title {
         text-align: left;
     }
+    
+    .thank-you {
+        padding-top: 15rem;
+    }
+    
+    .background-3 {
+        height: 700px   
+    }    
     
     .nav {
         text-align:right;
