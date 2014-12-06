@@ -84,8 +84,9 @@ nav li a:hover {
 .button-submit-color{
     margin: 2rem;
     padding: 1rem 1.5rem;
-    border: 1.5px solid #39a3a7;
-    background-color: rgba(57, 162, 168, 0.4);   
+    border: 1.5px solid white;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: white;
 }
 
 .button-submit-color:hover {
@@ -169,7 +170,7 @@ nav li a:hover {
 }
 
 .background-3 {
-    background-image:  url(../images/food.jpg);
+    background-image:  url(../images/refresh.jpg);
     background-position:  center center;
     background-size: cover;
     overflow: hidden;
