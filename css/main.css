@@ -252,7 +252,7 @@ img {
 }
 
 .thank-you {
-    padding-top: 7rem;
+    padding-top: 5rem;
 }
 
 .option {
@@ -308,8 +308,11 @@ img {
         padding-top: 3.5rem;
     }
     
+    .background-3 {
+        height: 650px   
+    }  
     .thank-you {
-    padding-top: 10rem;
+    padding-top: 12rem;
 }
     
     .copyright {
@@ -348,6 +351,10 @@ img {
         text-align: right;
     }
     
+     .thank-you {
+        padding-top: 11rem;
+    }
+    
     .billboard {
        height:40rem;
     }
@@ -379,10 +386,6 @@ img {
     
     .title {
         text-align: left;
-    }
-    
-    .thank-you {
-        padding-top: 15rem;
     }
     
     .background-3 {
