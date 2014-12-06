@@ -57,8 +57,8 @@ nav li a:hover {
 }
 
 .nav-bottom li::after {
-    xcontent: none;
-    xcolor: white;
+    content: none;
+    color: white;
 }
 
 .nav-bottom li:last-child::after {
@@ -110,7 +110,7 @@ nav li a:hover {
 }
 
 .billboard-header {
-    padding-top: 1rem;
+    padding-top: 0;
     font-weight:bold;
 }
     
@@ -175,6 +175,19 @@ nav li a:hover {
     padding: 1rem;
 }
 
+.action-button {
+    overflow: hidden;
+    text-decoration: none;
+    color: white;
+    border: 1.5px solid white;
+    text-align: center;
+    background-color: rgba(57, 162, 168, 0.4);
+    width: 150px;
+    height 150px;
+    margin: 0;
+    padding: 1rem;
+}
+
 img {
     display: block;
     width: 100%;
@@ -219,17 +232,17 @@ img {
 
 .field {
     width: 100%;
-    padding: 10px;
-    border: 1px solid blue;
-    box-shadow: 0 0 0 5px red;
+    padding: 15px;
+    border: 1px solid #39a3a7;
+    box-shadow: 0 0 0 5px #efefef;
     border-radius: 4px;
     transition: all 250ms linear;
+    margin: 5px
 }
 
 .field:focus {
-    box-shadow: 0 0 0 5px green;
+    box-shadow: 0 0 0 5px rgba(57, 162, 168, 0.5);
 }
-
 
 .radio {
     white-space: nowrap;
@@ -245,7 +258,10 @@ img {
     }
 
 @media only screen and (min-width: 25em) {
-        
+
+    .action-button {
+        margin: 0 30%;
+    }
     
     .nav-bottom li::after {
         content: " · ";
@@ -264,10 +280,6 @@ img {
     .title {
      text-align: left;   
     }    
-    
-    .billboard-header {
-        padding-top: 8rem;
-    }
     
     .action-space {
         padding-top: 2.5rem;
@@ -288,7 +300,11 @@ img {
     }
     
     .billboard {
-        height: 30rem;
+        height: 35rem;
+    }
+    
+    .billboard-header {
+        padding-top: 3.5rem;
     }
     
     .copyright {
@@ -303,7 +319,7 @@ img {
         color: white;
     }
     .billboard-header {
-        padding-top: 13rem;
+        padding-top: 9rem;
     }
     
     .action-space {
@@ -349,7 +365,7 @@ img {
     }
     
     .billboard-header {
-        padding-top: 10rem;
+        padding-top:10rem;
       }
     
     .action-space {
