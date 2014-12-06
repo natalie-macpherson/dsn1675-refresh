@@ -80,6 +80,18 @@ nav li a:hover {
     padding: 0;
     color: #39a3a7;
 }
+  
+.button-submit-color{
+    margin: 2rem;
+    padding: 1rem 1.5rem;
+    border: 1.5px solid #39a3a7;
+    background-color: rgba(57, 162, 168, 0.4);   
+}
+
+.button-submit-color:hover {
+    background-color: #39a3a7;
+    color: white;       
+}
 
 .button-center {
     text-align: center;
@@ -96,7 +108,6 @@ nav li a:hover {
     border: 1.5px solid #39a3a7;
     background-color: rgba(57, 162, 168, 0.4);    
 }    
-  
 
 .button-center-color-2{
     text-align: center;
@@ -179,32 +190,6 @@ nav li a:hover {
     overflow: hidden;
 }
 
-/**.action {
-    overflow: hidden;
-    text-decoration: none;
-    color: white;
-    border: 1.5px solid white;
-    text-align: center;
-    background-color: rgba(57, 162, 168, 0.4);
-    width: 150px;
-    height 150px;
-    margin: 1.5rem;
-    padding: 1rem;**/
-}
-
-.action-button {
-    overflow: hidden;
-    text-decoration: none;
-    color: white;
-    border: 1.5px solid white;
-    text-align: center;
-    background-color: rgba(57, 162, 168, 0.4);
-    width: 150px;
-    height 150px;
-    margin: 0;
-    padding: 1rem;
-}
-
 img {
     display: block;
     width: 100%;
@@ -275,11 +260,10 @@ img {
     }
 
 @media only screen and (min-width: 25em) {
-
-    .action-button {
+    
+    .button-submit-color {
         margin: 0 30%;
     }
-    
     .nav-bottom li::after {
         content: " · ";
         color: white;
@@ -297,10 +281,6 @@ img {
     .title {
      text-align: left;   
     }    
-    
-    .action-space {
-        xpadding-top: 2.5rem;
-    }
     
     .nav {
         text-align: right;
