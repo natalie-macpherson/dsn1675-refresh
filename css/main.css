@@ -96,7 +96,16 @@ nav li a:hover {
     border: 1.5px solid #39a3a7;
     background-color: rgba(57, 162, 168, 0.4);    
 }    
-    
+  
+
+.button-center-color-2{
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem 1.5rem;
+    border: 1.5px solid white;
+    background-color: rgba(57, 162, 168, 0.4);   
+}
+
 .button-center-box{  
     text-align: center;    
 } 
@@ -148,6 +157,14 @@ nav li a:hover {
     color: white; 
 }
 
+.background-3 {
+    background-image:  url(../images/food.jpg);
+    background-position:  center center;
+    background-size: cover;
+    overflow: hidden;
+    height: 500px
+}
+
 .background-2 {
     background-image: url(../images/food.jpg);
     background-position:  center center;
@@ -162,7 +179,7 @@ nav li a:hover {
     overflow: hidden;
 }
 
-.action {
+/**.action {
     overflow: hidden;
     text-decoration: none;
     color: white;
@@ -172,7 +189,7 @@ nav li a:hover {
     width: 150px;
     height 150px;
     margin: 1.5rem;
-    padding: 1rem;
+    padding: 1rem;**/
 }
 
 .action-button {
@@ -282,7 +299,7 @@ img {
     }    
     
     .action-space {
-        padding-top: 2.5rem;
+        xpadding-top: 2.5rem;
     }
     
     .nav {
